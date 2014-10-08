@@ -74,7 +74,7 @@ class MoneyType extends AbstractType
         );
 
         $resolver->setDefaults(array(
-            'data_class' => 'Elcodi\Component\Currency\Entity\Money',
+            'data_class' => 'Elcodi\Component\Currency\Entity\Interfaces\MoneyInterface',
             'empty_data' => $money,
         ));
     }
